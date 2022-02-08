@@ -12,7 +12,7 @@ export default function Header() {
 						<span className='ml-3'>DevSpace</span>
 					</a>
 				</Link>
-				<nav className='flex flex-wrap md:w-4/5 items-center justify-end text-base md:ml-auto'>
+				<nav className='flex flex-wrap md:w-4/5 items-center justify-center md:justify-end text-base md:ml-auto'>
 					<Link href='/blog'>
 						<a className='mx-5 cursor-pointer uppercase hover:text-indigo-300'>Blog</a>
 					</Link>

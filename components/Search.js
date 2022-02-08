@@ -20,7 +20,7 @@ export default function Search() {
 	}, [searchTerm]);
 
 	return (
-		<div className='static p-4'>
+		<div className='static pt-4 md:pt-0'>
 			<div className='container mx-auto flex items-center justify-center md:justify-end'>
 				<div className='relative text-gray-600 w-72'>
 					<form>
