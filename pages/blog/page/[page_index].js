@@ -12,7 +12,7 @@ export default function BlogPage({ posts, numPages, currentPage, categories }) {
 	return (
 		<Layout title={`Blog Page ${currentPage}`}>
 			<div className='flex flex-col xl:flex-row justify-between'>
-				<div className='xl:w-3/4 w-full mr-10'>
+				<div className='w-full xl:w-3/4 mr-10'>
 					<h1 className='text-5xl border-b-4 p-5 font-bold text-center md:text-left'>Blog</h1>
 					<div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
 						{posts.map((post, index) => (
@@ -21,7 +21,7 @@ export default function BlogPage({ posts, numPages, currentPage, categories }) {
 					</div>
 					<Pagination currentPage={currentPage} numPages={numPages} />
 				</div>
-				<div className='xl:w-1/4 w-full'>
+				<div className='w-full xl:w-1/4'>
 					<CategoryList categories={categories} />
 				</div>
 			</div>
