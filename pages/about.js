@@ -8,7 +8,7 @@ export default function AboutPage() {
 				<h3 className='text-2xl mb-5'>DevSpace</h3>
 				<p className='mb-3'>This is a blog in Next</p>
 				<p>
-					<span className='font-bold'>versino 1</span>
+					<span className='font-bold'>Version 1.0.0</span>
 				</p>
 			</div>
 		</Layout>
